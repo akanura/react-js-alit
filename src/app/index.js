@@ -15,9 +15,9 @@ class App extends React.Component {
           <Home />
           <hr />
           <p>These is my card</p>
-          <Card />
-          <Card />
-          <Card />
+          <Card title={"Web Development"} content={"This is my web development card"}/>
+          <Card title={"Art Content"} content={"This is my art content card"}/>
+          <Card title={"Social Media Marketing"} content={"This is my social media marketing card"}/>
         </div>
       </div>
     )
